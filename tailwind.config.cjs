@@ -16,7 +16,9 @@ module.exports = {
     },
     extend: {
       colors: {
-        "bg-primary": '#181B1B',
+        "primary": '#181B1B',
+        "white": "#FFFFFF",
+        
       },
       overflowWrap: {
         anywhere: 'anywhere',
@@ -203,6 +205,9 @@ module.exports = {
         'spin-1.5': 'spin 1.5s linear infinite',
         'spin-2': 'spin 2s linear infinite',
         'spin-3': 'spin 3s linear infinite',
+      },
+      borderImage: {
+        'gradient': 'linear-gradient(90deg, #F2714F 0%, #CD449C 29.6%, #7F50DE 65.1%, #5F6AF0 81.1%, #4D88F8 100%)',
       },
     },
   },
